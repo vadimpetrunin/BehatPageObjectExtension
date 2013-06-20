@@ -138,7 +138,7 @@ context is to call ``getPage`` provided by the
              */
             public function iSearchFor($keywords)
             {
-                $this->getPage('Homepage')->search($keywords):
+                $this->getPage('Homepage')->search($keywords);
             }
         }
 
